@@ -1,0 +1,5 @@
+print('{:=^5} CALCULADORA DE MÉDIA {:=^5}'.format('',''))
+nome = input('Digite o nome do aluno: ')
+nota1 = int(input('Qual a nota de {} na primeira unidade? '.format(nome)))
+nota2 = int(input('Qual a nota de {} na segunda unidade? '.format(nome)))
+print('A média deste aluno até o momento é igual a: {}'.format((nota1+nota2)/2))

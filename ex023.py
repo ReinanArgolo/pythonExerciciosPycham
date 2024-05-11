@@ -1,0 +1,5 @@
+num = int(input('Digite um número entre 0 e 9999: '))
+print(f'Unidade {num // 1 % 10}')
+print(f'Dezena {num // 10 % 10}')
+print(f'Dezena {num // 100 % 10}')
+print(f'Dezena {num // 1000 % 10}')

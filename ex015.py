@@ -1,0 +1,5 @@
+print('-'*5, 'SIMUALDOR DE ALUGUEL DE VEÍCULO', '-'*5)
+dias = float(input('Por quantos dias o carro foi alugado? '))
+km = float(input('Quantos km o carro percorreu? '))
+cal = (dias*60) + (km*0.15)
+print(f'O valor a pagar é de R${cal:.2f}')
