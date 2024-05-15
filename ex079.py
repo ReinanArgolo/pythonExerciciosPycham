@@ -8,7 +8,7 @@ while True:
     else:
         print('Duplicado adicionado! Não vou adicionar.')
     condição = input('Deseja continuar? [S/N] ').upper().strip()
-    if condição == 'N':
+    if condição in 'Nn':
         break
     else:
         print('-'*25)

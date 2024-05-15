@@ -23,6 +23,7 @@ for i, v in enumerate(numeros):
     if v == maior:
         print(i, end = '... ')
 print(' ')
+
 print(f'O menor valor digitado foi {menor} e está nas posições', end = ' ')
 for i, v in enumerate(numeros):
     if v == menor:
